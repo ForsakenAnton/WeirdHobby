@@ -1,0 +1,38 @@
+/* :host {
+    background-color: black;
+    color: whitesmoke;
+} */
+
+h1, h3 {
+    text-align: center;
+}
+
+
+img {
+  /* height: 25%; */
+  /* width: 25%; */
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+}
+
+
+.beforeAfter:before, .beforeAfter:after {
+            content: "";
+            display: table;
+            text-align: center;
+            /* margin: auto; */
+        }
+        
+        .beforeAfter:after{
+            clear: both;
+        }
+
+.centerImages {
+    text-align: center;
+}
+
+.poster {
+    box-shadow: 0 0 10px rgb(56, 55, 55);
+}
+

@@ -1,0 +1,9 @@
+img {
+    /* height: 25%; */
+    /* width: 25%; */
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+
+    text-align: center;
+  }

@@ -1,0 +1,38 @@
+h2, dl dt, dl dd {
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    color: green;
+    text-shadow: 5px 10px 10px black;
+    margin-bottom: 40px;
+}
+
+ul {
+    color: grey;
+    box-shadow: 10px -9px 10px black;
+    width: min-content;
+    padding: 5px 20%;
+
+    list-style-image: url("../../assets/images/ok.png");
+}
+
+ul, ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+
+ul li {
+    color: white;
+    /* width: max-content; */
+    box-shadow: 10px -9px 10px black;
+    padding: 5px 20px;
+}
+
+
+.resume {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
